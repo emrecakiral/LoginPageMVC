@@ -1,0 +1,35 @@
+﻿@model Login
+
+<div class="loginForm">
+	<form asp-action="Index">
+		<h3>Giriş</h3>
+		<a class="qr-login-trigger"></a>
+		<div class="mb-3">
+			<label asp-for="Eposta" class="form-label">E-posta</label>
+			<input asp-for="Eposta" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+			<span asp-validation-for="Eposta" id="emailHelp" class="form-text"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="Password" for="exampleInputPassword1" class="form-label">Şifre</label>
+			<input asp-for="Password" type="password" class="form-control" id="exampleInputPassword1">
+			<span asp-validation-for="Password" class="form-text"></span>
+		</div>
+		<div class="mb-3 form-check">
+			<input type="checkbox" class="form-check-input rememberMe" id="exampleCheck1">
+			<label class="form-check-label" for="exampleCheck1">Oturumum açık kalsın</label>
+			<ul class="sifremiUnuttum">
+				<li>
+					<a href="#" rel="nofollow">Şifremi Unuttum</a>
+				</li>
+			</ul>
+		</div>
+		<button type="submit" class="btn btn-primary btnGiris">Giriş Yap</button>
+	</form>
+	<p class="hesapAc">
+		<span>Hesabın yok mu?</span>
+		<a href="#">Hesap Aç</a><i class="fa-solid fa-caret-right"></i>
+	</p>
+	<p class="gizlilikPolitikasi">
+		Bu site reCAPTCHA ile korunmaktadır. Google <a href="https://policies.google.com/privacy">Gizlilik Politikası</a> <a href="https://policies.google.com/terms">Kullanım Koşulları</a> geçerlidir.
+	</p>
+</div>

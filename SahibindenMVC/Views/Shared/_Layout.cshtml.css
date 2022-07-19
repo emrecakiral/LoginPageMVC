@@ -1,0 +1,103 @@
+﻿.bilgiMesaj {
+    font-size: 11px;
+    color: #888;
+    padding: 12px;
+    background: #fff;
+    border: 1px dashed #ccc;
+    border-radius: 2px;
+    margin: 8px 96px 8px 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.fa-phone-flip {
+    color: red;
+    font-size: 42px;
+}
+
+.fa-circle-question {
+    color: red;
+    font-size: 42px;
+}
+
+.helpCenterRow {
+    position: relative;
+}
+
+.contact li {
+    float: left;
+    padding-left: 50px;
+    margin: 30px 40px 10px 0;
+    font-weight: 700;
+    position: relative;
+}
+
+.contact li p {
+    color: #c55353;
+    margin-top: 2px;
+}
+
+.language-selection {
+    position: absolute;
+    right: 96px;
+    bottom: 7px;
+    width: 245px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: "Avenir Next",sans-serif;
+}
+
+.current-language {
+    padding: 7px 0 0 15px;
+    cursor: pointer;
+}
+
+    .current-language .label {
+        color: #666;
+        font-size: 10px;
+        font-weight: 500;
+        height: 14px;
+        line-height: 14px;
+    }
+
+    .current-language .selected-text {
+        color: #333;
+        font-size: 14px;
+        font-weight: 600;
+        height: 19px;
+        line-height: 19px;
+        margin-top: 3px;
+        position: relative;
+        padding-left: 29px;
+    }
+
+        .current-language .selected-text.tr:before {
+            background-image: url('assets/footer.png');
+            background-position: -94px -19px;
+            background-size: 116px 89px;
+            width: 22px;
+            height: 14px;
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+    .current-language:after {
+        background-image: url('assets/footer.png');
+        background-size: 116px 89px;
+        background-position: -94px -38px;
+        width: 14px;
+        height: 14px;
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        position: absolute;
+        top: 17px;
+        right: 15px;
+    }

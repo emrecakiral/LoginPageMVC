@@ -1,0 +1,145 @@
+div {
+    display: block;
+}
+
+body {
+    color: #000;
+    width: 100%;
+    height: 100%;
+    font: 12px "Lucida Grande","LucidaGrande",Arial,sans-serif;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: normal;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    text-size-adjust: none;
+    background-color: #F8F8F8;
+}
+
+.footer {
+    background-color: #F9F9F9;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #438ed8;
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+}
+
+h3 {
+    text-align: left;
+    font-size: 22px;
+    font-weight: 600;
+    min-height: 40px;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+
+.logo {
+    width: 200px;
+    height: 105px;
+    background-position-y: -40px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    text-indent: -9999px;
+    background-image: url(/assets/emreLogo.png);
+    margin: 30px 0 20px 0;
+}
+
+.header {
+    text-align: center;
+}
+
+.loginForm {
+    background-color: #FFFFFF;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    color: #36454d;
+    padding: 42px 75px;
+    float: left;
+    margin: 10px 0 30px;
+    position: relative;
+    font-family: "Avenir Next",sans-serif;
+    font-weight: 500;
+    margin: 0 auto;
+    float: none;
+    width: 442px;
+    box-sizing: border-box;
+    min-width: auto;
+    min-height: auto;
+    max-height: none;
+    max-width: none;
+    padding: 50px;
+}
+
+.qr-login-trigger {
+    position: absolute;
+    z-index: 10;
+    display: block;
+    background: #f8f8f8 url(/img/qr-login.png) center no-repeat;
+    background-size: 40px;
+    padding: 0;
+    right: 50px;
+    top: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+.btnGiris {
+    font-family: "Avenir Next",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 44px;
+    width: 100%;
+    background: #489ae9;
+    box-shadow: 1px 0 2px 0 rgb(0 0 0 / 13%), 0 0 4px 0 rgb(0 0 0 / 11%), 0 2px 3px 0 rgb(0 0 0 / 16%);
+    text-shadow: none;
+    padding: 11px 22px;
+    border: 0;
+}
+
+.rememberMe {
+    cursor: pointer;
+}
+
+.sifremiUnuttum {
+    display: inline-block;
+    text-align: right;
+    padding: 0 0 12px 110px;
+}
+
+.hesapAc {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.gizlilikPolitikasi {
+    position: static;
+    color: #999;
+    font-size: 10px;
+    width: auto;
+}
+
+.fa-caret-right {
+    color: #438ed8;
+    font-size: 14px;
+}
+
+.validation-summary-errors {
+    color: #E80C4D;
+    font-weight: bold;
+    font-size: 1.1em;
+}
